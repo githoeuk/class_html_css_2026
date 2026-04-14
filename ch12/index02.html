@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+      }
+
+      .star {
+        position: absolute;
+        font-size: 30px;
+      }
+
+      .spaceship {
+        /* position: absolute; */
+        position: fixed;
+        /* 
+          position: fixed; -> 부모 태그 기준으로 결정 , 화면 기준으로 고정 
+          스크롤을 통한 화면 전환이 있더라도 고정 
+        */
+        font-size: 30px;
+        top: 50px;
+        right: 50px;
+        z-index: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="star" style="top: 50px; left: 100px">⭐</div>
+    <div class="star" style="top: 150px; left: 300px">⭐</div>
+    <div class="star" style="top: 350px; left: 150px">⭐</div>
+    <div class="star" style="top: 1200px; left: 450px">⭐</div>
+    <div class="planet"></div>
+    <div class="spaceship">🚀</div>
+  </body>
+</html>
