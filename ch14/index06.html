@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        border: 2px solid #d38e35;
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      .item {
+        height: 100px;
+        background-color: yellow;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 100px;
+      }
+      .item1 {
+        /* flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 100px; */
+        /* 위 3개의 기능의 단축 속성 */
+        flex: 0 1 100px;
+      }
+      .item2 {
+        /* flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 50px; weight를 정적으로 기본값을 지정할 수 있다 */
+        flex: 0 1 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- row -->
+    <h3>flex-direction: row</h3>
+    <div class="container">
+      <div class="item item1">1</div>
+      <div class="item item2">2</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 700px;
+        display: flex;
+        /* 단축 지정 가능  */
+        /*       flex-wrap: nowrap;
+        flex-direction: column; */
+        /* 가로에 줄바꿈 처리 */
+        flex-flow: row wrap;
+        border: 2px solid lightseagreen;
+
+        border-radius: 10px;
+        padding: 10px;
+
+        /* 자식 요소 정렬해보기 */
+        /* 주축과 교차축 방향 인지하고 움직이기 */
+        justify-content: space-evenly;
+        /* 교차축 방향 설정  */
+        align-items: center;
+      }
+
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: lightcyan;
+        margin: 5px;
+        border: 3px solid lightblue;
+        border-radius: 10px;
+        line-height: 100px;
+        text-align: center;
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- row -->
+    <h3>flex-direction: row</h3>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+  </body>
+</html>

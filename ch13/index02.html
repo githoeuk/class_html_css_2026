@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: lightgoldenrodyellow;
+      }
+      h3 {
+        font-weight: 100;
+        font-style: normal;
+        color: violet;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        border: 2px solid #abcdbc;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: #abcdbc;
+        margin: 5px;
+        border: 3px solid pink;
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+      }
+      .container.columm {
+        flex-direction: column;
+      }
+      .row-reverse {
+        flex-direction: row-reverse;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- row -->
+    <h3>flex-direction: row</h3>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <!-- columm -->
+    <h3>flex-direction: columm</h3>
+    <div class="container columm">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <!--  row - reverse -->
+    <h3>flex-direction: row-reverse</h3>
+    <div class="container row-reverse">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+  </body>
+</html>
