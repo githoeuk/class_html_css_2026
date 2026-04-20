@@ -45,6 +45,10 @@ header {
   margin-left: 20px;
 }
 
+.nav a:hover {
+  color: var(--apple-white);
+}
+
 /* 3단계 메인 */
 .hero {
   display: flex;
@@ -65,11 +69,6 @@ header {
   margin-bottom: 20px;
 }
 
-/* 구입하기 커서 올릴 시 색상 흰색으로 변경 - 수정 중 */
-.hero:hover {
-  transform: color;
-}
-
 .btn {
   display: flex;
   justify-content: space-evenly;
@@ -88,6 +87,11 @@ header {
 .btn-secondary {
   font-size: 3vh;
   color: var(--apple-gray);
+}
+
+/* 구입하기 커서 올릴 시 색상 흰색으로 변경 - 수정 중 */
+.btn-secondary:hover {
+  color: var(--apple-white);
 }
 
 .feature-cards h1 {
