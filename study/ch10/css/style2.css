@@ -85,6 +85,33 @@ header {
   font-size: 16px;
 }
 
+.tag {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.tag p {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+.tag-pickup {
+  padding: 5px;
+  font-size: 5px;
+  border: 1px solid hsl(178, 64%, 46%);
+  background-color: hsla(178, 64%, 46%, 0.774);
+  border-radius: 8px;
+}
+
+.tag-new {
+  padding: 5px;
+  font-size: 5px;
+  border: 1px solid violet;
+  background-color: #ee82eea2;
+  border-radius: 8px;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 480px;
