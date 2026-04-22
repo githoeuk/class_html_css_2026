@@ -110,13 +110,6 @@ header {
   margin: 20px 10px;
 }
 
-.grass-background {
-  padding: 16px 0;
-  background-color: var(--gh-card);
-  border: 1px solid var(--gh-border);
-  border-radius: 8px;
-}
-
 .grass-grid {
   display: flex;
   flex-wrap: wrap;
