@@ -169,6 +169,25 @@ header {
   background-color: orange;
 }
 
+.category {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.category p:hover {
+  color: white;
+}
+
+.content-wrapper {
+  flex: 1;
+}
+
+.final {
+  text-align: center;
+}
+
 /* 반응형 처리 */
 @media (max-width: 768px) {
   .profile-layout {
