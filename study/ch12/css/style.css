@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+header {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  color: #3b82f6;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  padding-left: 25px;
+  gap: 25px;
+}
+
+.login {
+  background-color: #3b82f6;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+.serach {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(#3b82f6, #8b5cf6);
+}
+
+.serach h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.serach p {
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.searchbar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar input {
+  max-width: 427px;
+  flex: 1;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.searchbar button {
+  padding: 10px 20px;
+  background-color: #1e293b;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  color: white;
+}
+
+.class {
+  padding: 80px 20px;
+}
+
+.class h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cards {
+  width: 267px;
+  height: 215.5px;
+  min-width: 250px;
+  max-width: 280px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.cards img {
+  height: 133.5px;
+  width: 267px;
+  border-radius: 12px 12px 0 0;
+}
+
+.info {
+  padding: 80px 20x;
+  display: block;
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+.info h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.category {
+  display: flex;
+  border: 1px solid red;
+}
+
+.ct-card {
+  padding: 30px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+}
+
+.ct-card span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  color: white;
+}
